@@ -3,15 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/AZAAN/Documents/NetBeansProjects/EyeHospitalManagementSystem/src/mainpkg/UserSceneController.java</file>
             <file>file:/C:/Users/AZAAN/Documents/NetBeansProjects/EyeHospitalManagementSystem/src/mainpkg/MainApplication.java</file>
-            <file>file:/C:/Users/AZAAN/Documents/NetBeansProjects/EyeHospitalManagementSystem/src/mainpkg/PatientDashboardSceneController.java</file>
-            <file>file:/C:/Users/AZAAN/Documents/NetBeansProjects/EyeHospitalManagementSystem/src/mainpkg/DoctorManageProcedureController.java</file>
-            <file>file:/C:/Users/AZAAN/Documents/NetBeansProjects/EyeHospitalManagementSystem/src/mainpkg/PatientLoginSceneController.java</file>
-            <file>file:/C:/Users/AZAAN/Documents/NetBeansProjects/EyeHospitalManagementSystem/src/mainpkg/DoctorLoginSceneController.java</file>
-            <file>file:/C:/Users/AZAAN/Documents/NetBeansProjects/EyeHospitalManagementSystem/src/mainpkg/PatientViewAppointmentHistoryController.java</file>
-            <file>file:/C:/Users/AZAAN/Documents/NetBeansProjects/EyeHospitalManagementSystem/src/mainpkg/DoctorDashboardSceneController.java</file>
-            <file>file:/C:/Users/AZAAN/Documents/NetBeansProjects/EyeHospitalManagementSystem/src/mainpkg/UserScene.fxml</file>
+            <file>file:/C:/Users/AZAAN/Documents/NetBeansProjects/EyeHospitalManagementSystem/src/mainpkg/Appointment.java</file>
+            <file>file:/C:/Users/AZAAN/Documents/NetBeansProjects/EyeHospitalManagementSystem/src/mainpkg/DoctorScheduleAppointmentSceneController.java</file>
         </group>
     </open-files>
 </project-private>

@@ -64,5 +64,6 @@ public class DoctorColleagueConsultationController implements Initializable {
     Scene scene = new Scene(parent);
     Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
     window.setScene(scene);
-    window.show();}
+    window.show();
+        }
     }

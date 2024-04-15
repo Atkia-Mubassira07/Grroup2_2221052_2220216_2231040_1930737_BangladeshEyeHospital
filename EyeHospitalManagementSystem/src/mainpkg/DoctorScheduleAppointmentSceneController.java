@@ -4,6 +4,7 @@
  */
 package mainpkg;
 
+import java.io.EOFException;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -53,18 +54,25 @@ public class DoctorScheduleAppointmentSceneController implements Initializable {
     private TableColumn<Appointment, String> doctorIdTableColumn;
     @FXML
     private TableView<Appointment> patientScheduleAppointmentTableView;
+    @FXML
+    private TableColumn<Appointment, LocalDate> doctorDateTableColumn;
+    @FXML
+    private TableColumn<Appointment, String> doctorTimeTableColumn;
 
     /**
      * Initializes the controller class.
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
+    //selectPatientIdCb.getItems().addAll("Patient ID 1", "Patient ID 2", "Patient ID 3");
+    //selectTimeCb.getItems().addAll("09:00am", "11:00am", "01:00pm", "03:00pm");
+
+    patientIdTableColumn.setCellValueFactory(new PropertyValueFactory<Appointment,String>("patientId"));
+    doctorDateTableColumn.setCellValueFactory(new PropertyValueFactory<Appointment,LocalDate>("date"));
+    doctorTimeTableColumn.setCellValueFactory(new PropertyValueFactory<Appointment,String>("time"));
+    
     selectPatientIdCb.getItems().addAll("Patient ID 1", "Patient ID 2", "Patient ID 3");
     selectTimeCb.getItems().addAll("09:00am", "11:00am", "01:00pm", "03:00pm");
-    
-    patientIdTableColumn.setCellValueFactory(new PropertyValueFactory<Appointment,String>("patientId"));
-    dateTableColumn.setCellValueFactory(new PropertyValueFactory<Appointment,LocalDate>("date"));
-    timeTableColumn.setCellValueFactory(new PropertyValueFactory<Appointment,String>("time"));
     
     serialNoTableColumn.setCellValueFactory(new PropertyValueFactory<Appointment,String>("serialNo"));
     dateTableColumn.setCellValueFactory(new PropertyValueFactory<Appointment,LocalDate>("date"));
