@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="546.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.MaintenanceStaffHomepageController">
+   <children>
+      <Label layoutX="173.0" layoutY="52.0" text="Mainteneance Database">
+         <font>
+            <Font name="Ebrima" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="240.0" layoutY="129.0" mnemonicParsing="false" onAction="#addNewWorkButtonOnAction" text="Add New Work" />
+      <Button layoutX="246.0" layoutY="185.0" mnemonicParsing="false" onAction="#updateWorkButtonOnAction" text="Update Work" />
+      <Button layoutX="250.0" layoutY="240.0" mnemonicParsing="false" onAction="#deleteWorkButtonOnAction" text="Delete work" />
+      <Button layoutX="234.0" layoutY="297.0" mnemonicParsing="false" onAction="#emergencyWorkButtonOnAction" text="Emergency Work" />
+      <Button layoutX="234.0" layoutY="355.0" mnemonicParsing="false" onAction="#workDoneButtonOnAction" text="Completed Work" />
+      <Button layoutX="275.0" layoutY="456.0" mnemonicParsing="false" onAction="#logoutButtonOnAction" text="Log Out" />
+   </children>
+</AnchorPane>
