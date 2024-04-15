@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="442.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.CreateUserAccountController">
+   <children>
+      <Label layoutX="189.0" layoutY="38.0" text="Create  User Account">
+         <font>
+            <Font name="Ebrima" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="99.0" layoutY="120.0" text="User ID :" />
+      <Label layoutX="99.0" layoutY="157.0" text="User Name :" />
+      <Label layoutX="92.0" layoutY="201.0" text="Password :" />
+      <Label layoutX="96.0" layoutY="241.0" text="Contact : " />
+      <Label layoutX="91.0" layoutY="286.0" text="User Type :" />
+      <TextField layoutX="216.0" layoutY="115.0" promptText="Enter User ID" />
+      <TextField layoutX="216.0" layoutY="152.0" promptText="Enter User Name" />
+      <TextField layoutX="216.0" layoutY="196.0" promptText="Enter Password" />
+      <TextField layoutX="216.0" layoutY="236.0" promptText="Enter Contact Number" />
+      <ComboBox fx:id="UserTypeCombBox" layoutX="216.0" layoutY="281.0" prefHeight="31.0" prefWidth="187.0" />
+      <Button layoutX="455.0" layoutY="352.0" mnemonicParsing="false" onAction="#SubmitButtonOnCLick" text="Submit" />
+      <Hyperlink layoutX="82.0" layoutY="353.0" onAction="#HomePageHyperlinkOnClick" text="Go to Home Page" underline="true" />
+   </children>
+</AnchorPane>

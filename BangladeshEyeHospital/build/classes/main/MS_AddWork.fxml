@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="677.0" prefWidth="889.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.MS_AddWorkController">
+   <children>
+      <Label layoutX="121.0" layoutY="32.0" text="Bangladesh Eye Hospital Management  System">
+         <font>
+            <Font name="Ebrima" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="333.0" layoutY="93.0" text="Work Management">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="104.0" layoutY="163.0" text="Work Info:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="104.0" layoutY="207.0" text="Date &amp; Time :" />
+      <Label layoutX="437.0" layoutY="207.0" text="Type of Work :" />
+      <Label layoutX="101.0" layoutY="257.0" text="Description :" />
+      <Label layoutX="436.0" layoutY="257.0" text="Departmment :" />
+      <TextField layoutX="216.0" layoutY="202.0" />
+      <TextField layoutX="555.0" layoutY="202.0" />
+      <TextField layoutX="216.0" layoutY="252.0" />
+      <TextField layoutX="555.0" layoutY="252.0" />
+      <Button layoutX="372.0" layoutY="311.0" mnemonicParsing="false" onAction="#addNewWorkButtonOnAction" text="Add Work" />
+      <Label layoutX="104.0" layoutY="367.0" text="Database :">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <TableView layoutX="99.0" layoutY="412.0" prefHeight="200.0" prefWidth="713.0">
+        <columns>
+          <TableColumn prefWidth="123.0" text="Date &amp; Time" />
+          <TableColumn prefWidth="130.0" text="Type of Work" />
+            <TableColumn prefWidth="291.0" text="Description" />
+            <TableColumn prefWidth="168.0" text="Department" />
+        </columns>
+      </TableView>
+      <Button layoutX="710.0" layoutY="626.0" mnemonicParsing="false" onAction="#backButtonOnAction" text="Back" />
+   </children>
+</AnchorPane>
